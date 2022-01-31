@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": "https://github.com/makotia/ts-template",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.14",
+    "esbuild-register": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node -r esbuild-register ./src"
+  }
 }
