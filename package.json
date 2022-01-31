@@ -1,0 +1,7 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/makotia/ts-template",
+  "license": "MIT"
+}
